@@ -21,7 +21,7 @@ export default async function ReposPage() {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4">
-        Github Repositor ies of {username}
+        Github Repositories of {username}
       </h2>
       <ul>
         {
@@ -33,7 +33,7 @@ export default async function ReposPage() {
                 <p>{repo.description}</p>
                 <div className="flex justify-between items-center">
                   <span className="flex items-center gap-1">
-                    <FaStar /> {repo.stargazers_count}
+                    <FaStar /> {repo.stargazers_count}a
                   </span>
                   <span className="flex items-center gap-1">
                     <FaCodeBranch /> {repo.forks_count}
